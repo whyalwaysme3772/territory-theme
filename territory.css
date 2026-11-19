@@ -202,15 +202,15 @@ div#commentBox {
 }
 
 .col-md-9 {
-    background: red !important;
+    background: #09a093 !important;
 }
 
 .breadcrumb {
-    background: hotpink !important;
+    background: #09a093 !important;
 }
 
 .comment {
-    background: yellow !important;
+    background: #09a093 !important;
     table td,
 .inner-table .left,
 .inner-table .right,
@@ -218,6 +218,6 @@ div#commentBox {
 .table strong,
 #player,
 #player a {
-    color: white !important;
+    color: #5f0246 !important;
 }
 
