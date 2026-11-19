@@ -1,9 +1,9 @@
 /* changed image to one from cameraroll */
 body {
     background-image: url('https://i.imgur.com/GSCND1o.jpeg') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
+    background-size: cover !important;
     background-position: center center !important;
+    background-attachment: fixed !important;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
     color: #09a093 !important;
     margin: 0 !important;
@@ -182,4 +182,23 @@ input.bad {
     color: #ff0000!important;}
 input.bad a {
     color:#ff00d9!important; 
+}
+.col-md-9 {
+    background: rgba(9, 160, 147, 0.8) !important;
+    border-radius: 12px !important;
+}
+div#commentBox {
+    background: rgba(9,160,147,.9) !important;
+    border-radius: 12px !important;
+}
+
+.comment {
+    background: rgba(255,255,255,.15) !important;
+    color: white !important;
+}
+.table {
+    background: rgba(9,160,147,.85) !important;
+}
+.col-md-9 {
+    background: red !important;
 }
