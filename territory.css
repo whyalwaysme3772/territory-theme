@@ -238,7 +238,7 @@ div#chatMessageContainer {
 }
 
 .s-chat-message:nth-child(odd) {
-    background: #5f0246 !important;
+    background: #09a093 !important;
     border: none !important; }
 
 .s-chat-message_timestamp {
@@ -248,7 +248,7 @@ div#chatMessageContainer {
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: #09a093 !important;
-    color: #09a0936 !important;	
+    color: #5f0246 !important;	
     border: none !important;
     border-radius: 0px !important;
     box-shadow: none !important; 
