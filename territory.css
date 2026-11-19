@@ -196,14 +196,28 @@ div#commentBox {
     background: rgba(255,255,255,.15) !important;
     color: white !important;
 }
+
 .table {
     background: rgba(9,160,147,.85) !important;
 }
+
 .col-md-9 {
     background: red !important;
 }
+
 .breadcrumb {
     background: hotpink !important;
 }
+
 .comment {
     background: yellow !important;
+    table td,
+.inner-table .left,
+.inner-table .right,
+.table a,
+.table strong,
+#player,
+#player a {
+    color: white !important;
+}
+
