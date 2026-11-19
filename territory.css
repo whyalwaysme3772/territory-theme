@@ -5,7 +5,7 @@ body {
     background-position: center center !important;
     background-attachment: fixed !important;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
-    color: #09a093 !important;
+    color: #0b09a0 !important;
     margin: 0 !important;
 }
 
@@ -202,3 +202,8 @@ div#commentBox {
 .col-md-9 {
     background: red !important;
 }
+.breadcrumb {
+    background: hotpink !important;
+}
+.comment {
+    background: yellow !important;
