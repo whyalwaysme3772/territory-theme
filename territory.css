@@ -286,16 +286,6 @@ div.left {
     font-size: 14px !important; 
 }
 
-img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
-    width:185px!important; 
-}
- 
-img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
-    width:185px!important; 
-}
-
 img[src$="achievements.jpg"] {
     content:url('LINK')!important;
     width:185px!important; 
