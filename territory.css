@@ -8,21 +8,25 @@ body {
     color: #09a093 !important;
     margin: 0 !important;
 }
+
 /* changed to a new color palette throughout */
 div.container.main {
     background: rgba(18, 212, 186, 0.341) !important;
     border-radius: 14px !important;
     padding: 20px !important;
 }
+
 .topbar {
     background: #09a093 !important;
     border-radius: 0 0 10px 10px !important;
 }
+
 .navbar-default {
     background: #0e2e5a !important;
     border: 3px solid #0569d4 !important;
     border-radius: 10px !important;
 }
+
 .navbar-default .navbar-nav > li > a {
     color: #09a093 !important;
     text-decoration: none !important;
@@ -30,20 +34,24 @@ div.container.main {
     border-radius: 8px !important;
     transition: background-color 0.2s ease, color 0.2s ease !important;
 }
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #ff6600 !important;
     background-color: #0920a0 !important;
 }
+
 .breadcrumb {
     font-size: 0.9em !important;
     color: #a80202 !important;
     border-radius: 8px !important;
 }
+
 .col-md-3 {
     background-color: #09a093 !important;
     border-radius: 12px !important;
     padding-top: 10px !important;
 }
+
 /*  border: 3px solid transparent !important;
     border-radius: 10px !important;
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
@@ -57,20 +65,24 @@ div.container.main {
     background-color:rgba(9, 160, 147, 0.9) !important;
     background-clip: padding-box, border-box !important;
 }
+
 .progress {
     border-radius: 8px !important;
     overflow: hidden !important;
 }
+
 .progress-bar {
     height: 20px !important;
     background-color: #09a093 !important;
     border-radius: 8px !important;
 }
+
 #player {
     background-color:rgba(9, 160, 147, 0.9) !important;
     padding: 10px !important;
     border-radius: 10px !important;
 }
+
 .table, #territory {
     border-collapse: separate !important;
     border-spacing: 4px !important;
@@ -79,12 +91,14 @@ div.container.main {
     background-image:rgba(9, 160, 147, 0.9) !important;
     background-clip: padding-box, border-box !important;
 }
+
 .table .top, th {
     background-color: rgba(9, 160, 147, 0.9) !important;
     color: #333 !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
 }
+
 /* may need to fix hover effect */
 .table td, .inner-table .left, .inner-table .right {
     background-color: rgba(9, 160, 147, 0.9) !important;
@@ -93,12 +107,15 @@ div.container.main {
     padding: 8px !important;
     transition: background-color 0.2s ease !important;
 }
+
 .table td:hover {
     background-color: rgba(0, 255, 123, 0.9) !important;
 }
+
 .table .bottom {
     border-radius: 8px !important;
 }
+
 .cave-grid, .mound-grid {
     border: 3px solid transparent !important;
     border-radius: 10px !important;
@@ -107,15 +124,18 @@ div.container.main {
     background-clip: padding-box, border-box !important;
     transition: transform 0.15s ease, box-shadow 0.15s ease !important;
 }
+
 .cave-grid:hover, .mound-grid:hover {
     transform: translateY(-2px) !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35) !important;
 }
+
 /* #lion_image img { border: 4px solid transparent !important; border-radius: 12px !important; background-image: linear-gradient(#ff00ff, #ff00ff), linear-gradient(to right, #ff00ff, #ff35df, #ffb52e, #b6ff4a, #00ff99, #ffff00, #00efff, #00dfff, #008e9e, #8c4dff, #7c22ff, #b900ff, #a000ff, #174fc9, #006eff, #001c50) !important; background-origin: border-box !important; background-clip: padding-box, border-box !important; wasnt working trying this  */
 #lion_image img {
     border: 4px solid #09a093 !important;
     border-radius: 12px !important;
 }
+
 input[type="submit"], button, .btn-primary, .btn-secondary {
     background-color: rgba(9, 160, 147, 0.9) !important;
     color: #751a1a !important;
@@ -124,23 +144,28 @@ input[type="submit"], button, .btn-primary, .btn-secondary {
     border: none !important;
     transition: background-color 0.2s ease, transform 0.15s ease !important;
 }
+
 input[type="submit"]:hover, button:hover, .btn-primary:hover, .btn-secondary:hover {
     background-color: rgba(9, 160, 147, 0.9) !important;
     transform: scale(1.03) !important;
 }
+
 input[type="text"], select, textarea {
     border-radius: 8px !important;
     border: 1px solid #001c50 !important;
     padding: 6px 10px !important;
 }
+
 a {
     color: #5f0246 !important;
     text-decoration: none !important;
     transition: color 0.2s ease !important;
 }
+
 a:hover {
     color: #ff6600 !important;
 }
+
 /* added alert colors and styling */
 .alert {
     background: #09a093 !important;
@@ -149,6 +174,7 @@ a:hover {
     border-radius: 10px !important;
     text-align: center !important;  
 }
+
 /* added colors to my comment delete buttons */
 input.bad {
     background: #09a093 !important;
