@@ -1,7 +1,7 @@
 /* changed image to one from cameraroll */
 body {
     background-image: url('https://i.imgur.com/GSCND1o.jpeg') !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
@@ -35,9 +35,11 @@ div.container.main {
     transition: background-color 0.2s ease, color 0.2s ease !important;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ff6600 !important;
-    background-color: #0920a0 !important;
+.navbar,
+.navbar-default {
+    background: #0e2e5a !important;
+    border: 3px solid #0569d4 !important;
+    border-radius: 10px !important;
 }
 
 .breadcrumb {
@@ -62,8 +64,7 @@ div.container.main {
 .panel {
     border: 3px solid transparent !important;
     border-radius: 10px !important;
-    background-color:rgba(9, 160, 147, 0.9) !important;
-    background-clip: padding-box, border-box !important;
+    background-color: rgba(9, 160, 147, 0.9) !important;
 }
 
 .progress {
@@ -77,8 +78,8 @@ div.container.main {
     border-radius: 8px !important;
 }
 
-#player {
-    background-color:rgba(9, 160, 147, 0.9) !important;
+table#player {
+    background-color: rgba(9, 160, 147, 0.9) !important;
     padding: 10px !important;
     border-radius: 10px !important;
 }
@@ -88,7 +89,7 @@ div.container.main {
     border-spacing: 4px !important;
     border: 3px solid transparent !important;
     border-radius: 12px !important;
-    background-image:rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.9) !important;
     background-clip: padding-box, border-box !important;
 }
 
@@ -119,7 +120,7 @@ div.container.main {
 .cave-grid, .mound-grid {
     border: 3px solid transparent !important;
     border-radius: 10px !important;
-    background-image:rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.9) !important;
     background-origin: border-box !important;
     background-clip: padding-box, border-box !important;
     transition: transform 0.15s ease, box-shadow 0.15s ease !important;
