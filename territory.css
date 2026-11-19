@@ -5,7 +5,7 @@ body {
     background-position: center center !important;
     background-attachment: fixed !important;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
-    color: #0b09a0 !important;
+    color: #5f0246 !important;
     margin: 0 !important;
 }
 
@@ -21,14 +21,8 @@ div.container.main {
     border-radius: 0 0 10px 10px !important;
 }
 
-.navbar-default {
-    background: #0e2e5a !important;
-    border: 3px solid #0569d4 !important;
-    border-radius: 10px !important;
-}
-
 .navbar-default .navbar-nav > li > a {
-    color: #09a093 !important;
+    color: #5f0246 !important;
     text-decoration: none !important;
     padding: 8px 12px !important;
     border-radius: 8px !important;
@@ -37,8 +31,8 @@ div.container.main {
 
 .navbar,
 .navbar-default {
-    background: #0e2e5a !important;
-    border: 3px solid #0569d4 !important;
+    background: #09a093 !important;
+    border: 3px solid #5f0246 !important;
     border-radius: 10px !important;
 }
 
@@ -95,7 +89,7 @@ table#player {
 
 .table .top, th {
     background-color: rgba(9, 160, 147, 0.9) !important;
-    color: #333 !important;
+    color:#5f0246 !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
 }
