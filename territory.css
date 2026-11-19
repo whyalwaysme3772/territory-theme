@@ -405,7 +405,7 @@ div#commentBox {
     background: rgba(9,160,147,.85) !important;
 }
 .col-md-9 {
-    background: red !important;
+    background: #09a093 !important;
 }
 
 button#label_currentChannel {
@@ -442,7 +442,7 @@ div#chatMessageContainer {
 }
 
 .s-chat-message:nth-child(odd) {
-    background: #5f0246 !important;
+    background: #09a093 !important;
     border: none !important; }
 
 .s-chat-message_timestamp {
