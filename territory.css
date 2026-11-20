@@ -256,209 +256,113 @@ input[type="submit"],
 /* added all kinds of new styles and cave compat */
 
 div#chatMessageContainer {
-    border: none !important; 
+    border: 2px solid #09a093 !important;
+    border-radius: 9px !important;
+}
+
+.s-chat-message {
+    background-color: rgba(9, 160, 147, 0.341) !important;
+    border-bottom: 1px solid rgba(9, 160, 147, 0.4) !important;
 }
 
 .s-chat-message__pinned {
-    background-color: rgba(9, 160, 147, 0.341) !important;
+    background-color: rgba(18, 212, 186, 0.45) !important;
     color: #1300a4 !important;
-    border: none !important; 
+    border-radius: 6px !important;
 }
 
-.s-chat-message:nth-child(even) {
+.s-chat-message_timestamp,
+div#lblCharacterCounter {
+    color: #5f0246 !important;
+}
+
+#fraChatChannelMenu,
+button.channelSwitcher,
+button.channelSwitcher.active {
     background-color: rgba(9, 160, 147, 0.341) !important;
-    border: none !important; 
-}
-
-.s-chat-message:nth-child(odd) {
-    background-color: rgba(9, 160, 147, 0.341) !important;
-    border: none !important; }
-
-.s-chat-message_timestamp {
-    color: #5f0246 !important; 
-}
-
-.s-chat-sidebar #fraChatChannelMenu,
-button.channelSwitcher, button.channelSwitcher.active {
-     background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;	
-    border: none !important;
-    border-radius: 0px !important;
-    box-shadow: none !important; 
+color: #5f0246 !important;
+    border: 1px solid #09a093 !important;
+    border-radius: 9px !important;
 }
 
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
     background-color: #7b0404 !important;
-    border-left: 6px solid #1300a4 !important;
-    color: #1300a4 !important; 
+    border-left: 4px solid #1300a4 !important;
+    border-radius: 6px !important;
+    color: #1300a4 !important;
 }
 
-html.nolayout {
-    background: none !important; 
-}
 
 div#lblCharacterCounter {
     color: #5f0246 !important; 
 }
 
-.feature {
-    background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;
-    border: 3px double #09a093 !important;
-    border-radius: 0px !important;  
-}
-
+.feature,
 div.left {
     background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
-    border: none !important;
-    border-radius: 0px !important; 
+border: 2px solid #09a093 !important;
+border-radius: 6px !important;
+    padding: 6px 10px !important;
 }
 
 .xsmall {
-    font-size: 14px !important; 
+    font-size: 18px !important;
 }
 
-img[src$="achievements.jpg"] {
-    content:url('LINK')!important;
-    width:185px!important; 
-}
-
-img[src$="showcase/banner.png"] {
-    content:url('LINK')!important;
-    width:185px!important; 
-}
 
 .featured-lion {
-     background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;
-    border: none !important;
-    border-radius: 0px !important;
-    padding: 0;
-    margin: 0 auto;max-width: 640px;
-    font-weight: bold;
-    font-size: 14px; 
-}
-
-img[src$="footmut.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="foothunt.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="footheir.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="footbreed.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="footx.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="footbio.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-img[src$="footinfertile.png"] {
-    content:url('LINK')!important;
-    width:20px!important; 
-}
-
-.badge {
     background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important; 
-}
-.footer a:link, .footer a:visited, .footer a:active {
-    border-bottom: none !important; 
-}
-
-td.bottom a, th a {
-    border-bottom: none !important; 
-}
-
-.boxcontainer {
-    background: none;
-    height: 75px;
-    padding: 0px;
-    display: block;
-    justify-content: center;
-    transition: 1s 
+    color: #5f0246 !important;
+    border: 2px solid #09a093 !important;
+border-radius: 9px !important;
+padding: 5px 11px;
+    margin: 8px auto;
+    max-width: 620px;
+    font-weight: bold;
+font-size: 18px;
 }
 
-.boxcontainer:hover {
-height: 250px; 
+
+
+
+.Box1,
+.Box2,
+.Box3 {
+    background-color: rgba(9, 160, 147, 0.341) !important;
+    color: #5f0246 !important;
+    border: 2px solid #09a093 !important;
+    border-radius: 9px !important;
+padding: 12px 14px;
+    height: 85px;
+    margin-bottom: 10px;
+overflow: hidden;
+    box-sizing: border-box;
+    transition: height 0.4s ease;
 }
-   
+
 .Box1 {
     float: left;
-     background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;
-    border: none !important;
-    border-radius: 0px !important;
-    padding: 5px;
-    float: left;
-    height: 75px;
     width: 100%;
-    overflow: hidden;
-    margin-bottom: 10px;
-    transition: 1s 
 }
 
-.Box1:hover {
-    overflow-y: auto;
-    height: 250px; 
-}
-   
 .Box2 {
     float: right;
-    background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;
-    border: none !important;
-    border-radius: 0px !important;
-    padding: 5px;
-    float: right;
-    height: 75px;
     width: 30%;
-    overflow: hidden;
-    margin-bottom: 10px;
-    transition: 1s 
 }
 
-.Box2:hover {
-    overflow-y: auto;
-    height: 250px; 
-}
-	
 .Box3 {
     float: right;
-    background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #5f0246 !important;
-    border: none !important;
-    border-radius: 0px !important;
-    padding: 5px;
-    float: right;
-    height: 75px;
     width: 65%;
-    overflow: hidden;
-    margin-bottom: 10px;
-    transition: 1s 
 }
 
+.Box1:hover,
+.Box2:hover,
 .Box3:hover {
+    height: 225px;
     overflow-y: auto;
-    height: 250px; 
 }
+
 
 ::-webkit-scrollbar {
   width: 10px;
