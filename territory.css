@@ -32,7 +32,7 @@ div.container.main {
 
 .navbar-default {
    background: rgba(18, 212, 186, 0.341) !important;
-    border: 3px solid #ff6200 !important;
+    border: 3px solid #09a09d !important;
     border-radius: 10px !important;
 }
 
@@ -47,7 +47,7 @@ div.container.main {
 .navbar,
 .navbar-default {
     background: rgba(18, 212, 186, 0.341) !important;
-    border: 3px solid  #ff6200 !important;
+    border: 3px solid  #09a093 !important;
     border-radius: 10px !important;
 }
 
@@ -463,15 +463,15 @@ height: 250px;
 /* changed them to solid */
 
 ::-webkit-scrollbar-track {
-  background-color: #09a093 !important;
+  background-color: #091da0 !important;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #09a093 !important;
+  background-color: #091da0 !important;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #09a093 !important;
+  background-color: #091da0 !important;
 }
