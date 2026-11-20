@@ -15,11 +15,18 @@ div.container.main {
     border-radius: 14px !important;
     padding: 20px !important;
 }
+/* adding breadcrumb */
+.breadcrumb {
+    background: rgba(18, 212, 186, 0.341) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    margin-bottom: 20px !important;
+}
 /* changed all to transparent */
 .topbar {
   background: rgba(18, 212, 186, 0.341) !important;
   color: #5f0246 !important;
-  border: 3px solid #ff6200 !important;
+  border: 3px solid #09a093 !important;
     border-radius: 0 0 10px 10px !important;
 }
 
@@ -68,16 +75,17 @@ div.container.main {
     border-radius: 10px !important;
     background-color: rgba(9, 160, 147, 0.341) !important;
 }
-
 .progress {
-    border-radius: 8px !important;
-    overflow: hidden !important;
+  background: rgba(9, 160, 147, 0.16) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
 }
 
 .progress-bar {
-    height: 20px !important;
-  background-color: rgba(9, 160, 147, 0.341) !important;
-    border-radius: 8px !important;
+  background: rgba(9, 160, 147, 0.55) !important;
+  color: #5f0246 !important;
+  box-shadow: none !important;
 }
 
 table#player {
@@ -97,7 +105,7 @@ table#player {
 
 .table .top, th {
     background-color: rgba(9, 160, 147, 0.341) !important;
-    color: #333 !important;
+    color: #5f0246 !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
 }
@@ -105,7 +113,7 @@ table#player {
 /* may need to fix hover effect */
 .table td, .inner-table .left, .inner-table .right {
     background-color: rgba(9, 160, 147, 0.341) !important;
-    border: 1px solid #001c50 !important;
+    border: 1px solid #5f0246 !important;
     border-radius: 6px !important;
     padding: 8px !important;
     transition: background-color 0.2s ease !important;
@@ -195,8 +203,8 @@ div#commentBox {
 }
 
 .comment {
-    background: rgba(255,255,255,.15) !important;
-    color: white !important;
+    background: rgba(9,160,147,.341) !important;
+    color: #5f0246  !important;
 }
 .table {
     background: rgba(9,160,147,0.341) !important;
@@ -210,6 +218,25 @@ button#label_currentChannel {
     background: #09a093 !important; 
 }
 
+textarea,
+input[type="text"],
+.form-control {
+  background: rgba(9, 160, 147, 0.18) !important;
+  color: #5f0246 !important;
+  border: 1px solid rgba(9, 160, 147, 0.5) !important;
+}
+
+button,
+input[type="submit"],
+.btn {
+  background: rgba(9, 160, 147, 0.3) !important;
+  color: #5f0246 !important;
+  border: 1px solid rgba(9, 160, 147, 0.6) !important;
+}
+
+.comment small, .comment .timestamp{
+    color: #5f0246 !important;
+}
 .comment {
     background: rgba(9, 160, 147, 0.341) !important;
     table td,
@@ -428,3 +455,21 @@ height: 250px;
     height: 250px; 
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(9, 160, 147, 0.12) !important;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(9, 160, 147, 0.45) !important;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(9, 160, 147, 0.65) !important;
+}
