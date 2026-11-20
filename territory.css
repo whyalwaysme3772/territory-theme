@@ -15,14 +15,20 @@ div.container.main {
     border-radius: 14px !important;
     padding: 20px !important;
 }
-
+/* changed all to transparent */
 .topbar {
-    background: #09a093 !important;
+  background: rgba(18, 212, 186, 0.341) !important;
     border-radius: 0 0 10px 10px !important;
 }
 
+.navbar-default {
+   background: rgba(18, 212, 186, 0.341) !important;
+    border: 3px solid #ff6200 !important;
+    border-radius: 10px !important;
+}
+
 .navbar-default .navbar-nav > li > a {
-    color: #5f0246 !important;
+    color: #09a093 !important;
     text-decoration: none !important;
     padding: 8px 12px !important;
     border-radius: 8px !important;
@@ -31,8 +37,8 @@ div.container.main {
 
 .navbar,
 .navbar-default {
-    background: #09a093 !important;
-    border: 3px solid #5f0246 !important;
+    background: rgba(18, 212, 186, 0.341) !important;
+    border: 3px solid  #ff6200 !important;
     border-radius: 10px !important;
 }
 
@@ -43,7 +49,7 @@ div.container.main {
 }
 
 .col-md-3 {
-    background-color: #09a093 !important;
+   background: rgba(18, 212, 186, 0.341) !important;
     border-radius: 12px !important;
     padding-top: 10px !important;
 }
@@ -58,7 +64,7 @@ div.container.main {
 .panel {
     border: 3px solid transparent !important;
     border-radius: 10px !important;
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
 }
 
 .progress {
@@ -68,12 +74,12 @@ div.container.main {
 
 .progress-bar {
     height: 20px !important;
-    background-color: #09a093 !important;
+  background-color: rgba(9, 160, 147, 0.341) !important;
     border-radius: 8px !important;
 }
 
 table#player {
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     padding: 10px !important;
     border-radius: 10px !important;
 }
@@ -83,20 +89,20 @@ table#player {
     border-spacing: 4px !important;
     border: 3px solid transparent !important;
     border-radius: 12px !important;
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     background-clip: padding-box, border-box !important;
 }
 
 .table .top, th {
-    background-color: rgba(9, 160, 147, 0.9) !important;
-    color:#5f0246 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
+    color: #333 !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
 }
 
 /* may need to fix hover effect */
 .table td, .inner-table .left, .inner-table .right {
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     border: 1px solid #001c50 !important;
     border-radius: 6px !important;
     padding: 8px !important;
@@ -104,7 +110,7 @@ table#player {
 }
 
 .table td:hover {
-    background-color: rgba(0, 255, 123, 0.9) !important;
+    background-color: rgba(0, 255, 123, 0.341) !important;
 }
 
 .table .bottom {
@@ -114,7 +120,7 @@ table#player {
 .cave-grid, .mound-grid {
     border: 3px solid transparent !important;
     border-radius: 10px !important;
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     background-origin: border-box !important;
     background-clip: padding-box, border-box !important;
     transition: transform 0.15s ease, box-shadow 0.15s ease !important;
@@ -132,7 +138,7 @@ table#player {
 }
 
 input[type="submit"], button, .btn-primary, .btn-secondary {
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #751a1a !important;
     padding: 8px 14px !important;
     border-radius: 8px !important;
@@ -141,7 +147,7 @@ input[type="submit"], button, .btn-primary, .btn-secondary {
 }
 
 input[type="submit"]:hover, button:hover, .btn-primary:hover, .btn-secondary:hover {
-    background-color: rgba(9, 160, 147, 0.9) !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     transform: scale(1.03) !important;
 }
 
@@ -163,7 +169,7 @@ a:hover {
 
 /* added alert colors and styling */
 .alert {
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #001c50 !important;
     border: none !important;
     border-radius: 10px !important;
@@ -182,27 +188,20 @@ input.bad a {
     border-radius: 12px !important;
 }
 div#commentBox {
-    background: rgba(9,160,147,.9) !important;
+    background: rgba(9,160,147,.341) !important;
     border-radius: 12px !important;
 }
 
 .comment {
     background: rgba(255,255,255,.15) !important;
-    color: #5f0246 !important;
+    color: white !important;
 }
-
 .table {
-    background: rgba(9,160,147,.85) !important;
+    background: rgba(9,160,147,0.341) !important;
 }
-
 .col-md-9 {
-    background: #09a093 !important;
+    background: red !important;
 }
-
-.breadcrumb {
-    background: #09a093 !important;
-}
-
 
 button#label_currentChannel {
     border: none !important;
@@ -210,7 +209,7 @@ button#label_currentChannel {
 }
 
 .comment {
-    background: #09a093 !important;
+    background: rgba(9, 160, 147, 0.341) !important;
     table td,
 .inner-table .left,
 .inner-table .right,
@@ -238,7 +237,7 @@ div#chatMessageContainer {
 }
 
 .s-chat-message:nth-child(odd) {
-    background: #09a093 !important;
+    background: #5f0246 !important;
     border: none !important; }
 
 .s-chat-message_timestamp {
@@ -247,7 +246,7 @@ div#chatMessageContainer {
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #09a093 !important;
+     background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;	
     border: none !important;
     border-radius: 0px !important;
@@ -269,14 +268,14 @@ div#lblCharacterCounter {
 }
 
 .feature {
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: 3px double #09a093 !important;
     border-radius: 0px !important;  
 }
 
 div.left {
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: none !important;
     border-radius: 0px !important; 
@@ -284,6 +283,16 @@ div.left {
 
 .xsmall {
     font-size: 14px !important; 
+}
+
+img[src$="ancestors.jpg"] {
+    content:url('LINK')!important;
+    width:185px!important; 
+}
+ 
+img[src$="ancestorsfem.png"] {
+    content:url('LINK')!important;
+    width:185px!important; 
 }
 
 img[src$="achievements.jpg"] {
@@ -297,7 +306,7 @@ img[src$="showcase/banner.png"] {
 }
 
 .featured-lion {
-    background: #09a093 !important;
+     background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: none !important;
     border-radius: 0px !important;
@@ -343,7 +352,7 @@ img[src$="footinfertile.png"] {
 }
 
 .badge {
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important; 
 }
 .footer a:link, .footer a:visited, .footer a:active {
@@ -369,7 +378,7 @@ height: 250px;
    
 .Box1 {
     float: left;
-    background: #09a093 !important;
+     background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: none !important;
     border-radius: 0px !important;
@@ -388,7 +397,8 @@ height: 250px;
 }
    
 .Box2 {
-    float: right;background: #09a093 !important;
+    float: right;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: none !important;
     border-radius: 0px !important;
@@ -408,7 +418,7 @@ height: 250px;
 	
 .Box3 {
     float: right;
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #5f0246 !important;
     border: none !important;
     border-radius: 0px !important;
