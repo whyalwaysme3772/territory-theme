@@ -480,3 +480,17 @@ height: 250px;
 ::-webkit-scrollbar-thumb:hover {
  background: rgba(9, 29, 160, 0.12) !important;
 }
+/* added my credits */
+div.container.main::after {
+    content: "Territory Theme by Ramius / #Ramius *#406178*";
+    display: block;
+    margin-top: 20px;
+    padding: 10px 14px;
+    background: rgba(18, 212, 186, 0.341) !important;
+    border: 2px solid #09a093 !important;
+    border-radius: 8px;
+    color: #5f0246 !important;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
