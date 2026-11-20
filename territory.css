@@ -465,18 +465,18 @@ height: 250px;
   height: 10px;
 }
 
-/* changed them to solid changed mind switched to transparent */
+/* changed them to solid changed then mind switched to transparent */
 
 ::-webkit-scrollbar-track {
-  background: rgba(9, 29, 160, 0.341) !important;
+  background: rgba(9, 29, 160, 0.12) !important;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
- background: rgba(9, 29, 160, 0.341) !important;
+ background: rgba(9, 29, 160, 0.12) !important;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
- background: rgba(9, 29, 160, 0.341) !important;
+ background: rgba(9, 29, 160, 0.12) !important;
 }
