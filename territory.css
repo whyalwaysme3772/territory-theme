@@ -18,6 +18,8 @@ div.container.main {
 /* changed all to transparent */
 .topbar {
   background: rgba(18, 212, 186, 0.341) !important;
+  color: #5f0246 !important;
+  border: 3px solid #ff6200 !important;
     border-radius: 0 0 10px 10px !important;
 }
 
@@ -28,7 +30,7 @@ div.container.main {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #09a093 !important;
+    color: #5f0246 !important;
     text-decoration: none !important;
     padding: 8px 12px !important;
     border-radius: 8px !important;
@@ -200,7 +202,7 @@ div#commentBox {
     background: rgba(9,160,147,0.341) !important;
 }
 .col-md-9 {
-    background: red !important;
+    background: rgba(9, 160, 147, 0.341) !important;
 }
 
 button#label_currentChannel {
@@ -226,18 +228,18 @@ div#chatMessageContainer {
 }
 
 .s-chat-message__pinned {
-    background-color: #7b0404 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     color: #1300a4 !important;
     border: none !important; 
 }
 
 .s-chat-message:nth-child(even) {
-    background: #09a093 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     border: none !important; 
 }
 
 .s-chat-message:nth-child(odd) {
-    background: #5f0246 !important;
+    background-color: rgba(9, 160, 147, 0.341) !important;
     border: none !important; }
 
 .s-chat-message_timestamp {
@@ -283,16 +285,6 @@ div.left {
 
 .xsmall {
     font-size: 14px !important; 
-}
-
-img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
-    width:185px!important; 
-}
- 
-img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
-    width:185px!important; 
 }
 
 img[src$="achievements.jpg"] {
